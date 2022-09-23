@@ -23,7 +23,7 @@ public class Ej01Tabla2 {
         System.out.println("2x" + "5" + "="+ tabla2[5]);
         while (valor != 11) {
             GeneradorAleatorio.iniciar();
-                valor = GeneradorAleatorio.generarInt(11);
+                valor = GeneradorAleatorio.generarInt(12);
             System.out.println("el valor de el numero multiplicado por dos es: " + tabla2[valor]);
         }
     }
